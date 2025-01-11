@@ -7,20 +7,20 @@ The To-Do List project is a simple and interactive web application designed to h
 ## Features
 
 - **Add Tasks**  
-  - Users can add new tasks by typing into the input field and clicking the "Add" button. Each task will appear in the list below.  
+    Users can add new tasks by typing into the input field and clicking the "Add" button. Each task will appear in the list below.  
 
 - **Mark Tasks as Completed ✅**  
-  - Click on a task to toggle its completion status. Completed tasks are visually distinguished (e.g., strikethrough or different color).  
+    Click on a task to toggle its completion status. Completed tasks are visually distinguished (e.g., strikethrough or different color).  
 
 - **Delete Tasks ❌**  
-  - Each task has a delete button, allowing users to remove it individually when no longer needed.  
+   Each task has a delete button, allowing users to remove it individually when no longer needed.  
 
 - **Clear All Tasks**  
-  - A single button to clear the entire to-do list at once, helping users start fresh when needed.  
+    A single button to clear the entire to-do list at once, helping users start fresh when needed.  
 
 - **Responsive Design**  
-  - The layout automatically adapts to different screen sizes, ensuring usability on mobile, tablet, and desktop devices.
-  - 
+    The layout automatically adapts to different screen sizes, ensuring usability on mobile, tablet, and desktop devices.
+  
 ## How to Use
 
 1. Open the `index.html` file in your web browser.
