@@ -9,7 +9,7 @@ The To-Do List project is a simple and interactive web application designed to h
 - **Add Tasks**  
     Users can add new tasks by typing into the input field and clicking the "Add" button. Each task will appear in the list below.  
 
-- **Mark Tasks as Completed ✅**  
+- **Mark Tasks as Completed ✔️**  
     Click on a task to toggle its completion status. Completed tasks are visually distinguished (e.g., strikethrough or different color).  
 
 - **Delete Tasks ❌**  
