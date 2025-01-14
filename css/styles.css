@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mochiy Pop One', cursive; /* Changed to your preferred font */
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    background-image: url('https://media.istockphoto.com/id/1300438606/vector/space-with-planets-background.jpg?s=612x612&w=0&k=20&c=203UZ-X20bTu0hbHvGJMsHxOustnVyquZOQhETClWDs='); /* Background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: #f9f5e1; /* Cream color background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    background-color: rgba(249, 245, 225, 0.9); /* Semi-transparent cream background */
+    margin-top: -20px; /* Move the whole container a little higher */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.todo-input {
+    margin-bottom: 20px;
+    margin-top: -10px; /* Adjust this to move input box a bit higher */
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.post-its-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.post-it {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    font-size: 1rem;
+    background-color: #ffecb3; /* Default light yellow sticky note */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    transform: rotate(-5deg); /* Slight tilt effect */
+    overflow: hidden;
+    font-family: 'Mochiy Pop One', cursive; /* Changed to your preferred font */
+}
+
+.post-it textarea {
+    width: 100%;
+    height: 100px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    font-size: 1rem;
+    color: #333;
+}
+
+.post-it button.delete-btn,
+.post-it button.check-btn {
+    position: absolute;
+    bottom: 10px; /* Position buttons at the bottom */
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-left: -10px; /* Move buttons slightly to the left */
+}
+
+.post-it button.delete-btn {
+    color: #e74c3c; /* Red color for delete button */
+}
+
+.post-it button.check-btn {
+    color: #28a745; /* Green color for check button */
+    margin-left: 1cm; /* Add 1cm gap between delete and check button */
+}
+
+.post-it button.delete-btn:hover,
+.post-it button.check-btn:hover {
+    color: #c0392b; /* Darker shade on hover */
+}
+
+.post-it.completed {
+    background-color: #d4edda; /* Green background when completed */
+    text-decoration: line-through;
+}
+
+.post-it:nth-child(1) {
+    background-color: #ffecb3; /* Yellow */
+}
+
+.post-it:nth-child(2) {
+    background-color: #f9c2ff; /* Pink */
+}
+
+.post-it:nth-child(3) {
+    background-color: #ffebcc; /* Orange */
+}
+
+.post-it:nth-child(4) {
+    background-color: #a3d8ff; /* Light Blue */
+}
+
+.post-it:nth-child(5) {
+    background-color: #d4edda; /* Light Green */
+}
+
+.post-it:nth-child(6) {
+    background-color: #fdd7e4; /* Light Pink */
+}
+
+.post-it:nth-child(7) {
+    background-color: #ffb3e6; /* Light Lavender */
+}
+
+.post-it:nth-child(8) {
+    background-color: #bffcc6; /* Pale Green */
+}
+
+.post-it:nth-child(9) {
+    background-color: #ffdfba; /* Peach */
+}
+
+.post-it:nth-child(10) {
+    background-color: #f7c1d7; /* Soft Pink */
+}
+
+.post-it:hover {
+    transform: rotate(0deg); /* Make the note level on hover */
+    background-color: #fffae6; /* Slight background color change on hover */
+}
+
+.post-it button.delete-btn,
+.post-it button.check-btn {
+    padding: 0; /* Remove extra padding to make space for buttons */
+}
+
+.post-it button.check-btn {
+    margin-left: 1cm; /* 1cm gap between delete and check button */
+}
